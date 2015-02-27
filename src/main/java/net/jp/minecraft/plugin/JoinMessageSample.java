@@ -34,8 +34,8 @@ public class JoinMessageSample extends JavaPlugin implements Listener {
 
     	//メッセージを流す
     	player.sendMessage(ChatColor.AQUA + "---------------  " + ChatColor.GOLD +"ようこそ！なんとかサーバ へ！" + ChatColor.AQUA +"  ---------------");
-    	player.sendMessage("");
-    	player.sendMessage(ChatColor.LIGHT_PURPLE + "- 問題が派生したら？  Twitter @syokkendesuyo");
+    	player.sendMessage(player.getName()+ "さんようこそ！");
+    	player.sendMessage(ChatColor.LIGHT_PURPLE + "- 問題が発生したら？  Twitter @syokkendesuyo");
     	player.sendMessage("");
     	player.sendMessage("");
     	player.sendMessage("- サーバアドレス:あどれすー");
