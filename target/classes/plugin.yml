@@ -1,0 +1,3 @@
+name: JoinMessageSample
+version: 1.0.0
+main: net.jp.minecraft.plugin.JoinMessageSample
